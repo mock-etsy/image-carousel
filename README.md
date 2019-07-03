@@ -1,2 +1,2 @@
 # image-carousel
-Module for image carousel service
+Mini-app service for image carousel... service
