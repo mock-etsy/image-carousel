@@ -4,6 +4,9 @@ const path = require("path");
 const app = express();
 
 const port = process.env.PORT || 3003;
+const compression = require('compression');
+
+app.use(compression());
 
 function ignoreFavicon(req, res, next) {
   if (req.originalUrl === '/favicon.ico') {
