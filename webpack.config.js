@@ -8,12 +8,12 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
-    port: 3000,
+    port: 3003,
     historyApiFallback: true, //navigation
     proxy: [
       {
         context: () => true,
-        target: "http://localhost:3000",
+        target: "http://localhost:3003",
         secure: false
       }
     ]
