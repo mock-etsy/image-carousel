@@ -4,6 +4,16 @@ const path = require("path");
 const app = express();
 
 const port = process.env.PORT || 3003;
+
+function ignoreFavicon(req, res, next) {
+  if (req.originalUrl === '/favicon.ico') {
+    res.status(204).json({nope: true});
+  } else {
+    next();
+  }
+}
+
+app.use(ignoreFavicon);
 app.use(express.static("dist"));
 app.use(
   bodyParser.json({
