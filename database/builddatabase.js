@@ -2,7 +2,8 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 // task scheduler and rate limiter to overcome API quota
 const Bottleneck = require("bottleneck");
-
+// bring in API key from dotenv
+require('dotenv').config({path: '../.env'});
 
 const listingIds = [
   81814051,
@@ -111,7 +112,7 @@ let finalResultArray = [];
 console.log("Running buildDatabase.js");
 // keep under API quota of 10 requests/second (ie. 8 requests/second, one every 125ms)
 const limiter = new Bottleneck({
-  minTime: 125
+  minTime: 200
 });
 // const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 // const fetchTimeout = 125;
@@ -125,7 +126,7 @@ let promisesArray = listingIds.map(listingId => {
     //   didTimeout = true;
     // }, fetchTimeout);
     // await delay(125);
-    let url = `https://openapi.etsy.com/v2/listings/${listingId}/images.js?api_key=wdhf9pdro29ifvnpeuy9rszr`;
+    let url = `https://openapi.etsy.com/v2/listings/${listingId}/images.js?api_key=${process.env.ETSY_API_KEY}`;
     limiter.schedule(() => fetch(url, {
       method: "GET",
       headers: {
