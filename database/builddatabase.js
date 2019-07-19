@@ -1,5 +1,7 @@
 const fs = require("fs");
 const fetch = require("node-fetch");
+// task scheduler and rate limiter to overcome API quota
+const Bottleneck = require("bottleneck");
 
 
 const listingIds = [
@@ -106,34 +108,38 @@ const listingIds = [
 ];
 
 let finalResultArray = [];
-console.log('Running buildDatabase.js');
+console.log("Running buildDatabase.js");
+// keep under API quota of 10 requests/second (ie. 8 requests/second, one every 125ms)
+const limiter = new Bottleneck({
+  minTime: 125
+});
+// const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+// const fetchTimeout = 125;
+// let didTimeout = false;
+
 // promisesArray will hold all the promises created in map()
 let promisesArray = listingIds.map(listingId => {
   // make a new promise for each element of cities
   return new Promise((resolve, reject) => {
+    // const timeout = setTimeout(function() {
+    //   didTimeout = true;
+    // }, fetchTimeout);
+    // await delay(125);
     let url = `https://openapi.etsy.com/v2/listings/${listingId}/images.js?api_key=wdhf9pdro29ifvnpeuy9rszr`;
-    fetch(
-      url,
-      {
-      method: 'GET',
+    limiter.schedule(() => fetch(url, {
+      method: "GET",
       headers: {
-        'Accept' : 'application/json',
-        'Content-Type': 'application/json'
+        Accept: "application/json",
+        "Content-Type": "application/json"
       }
-    }).then(response => {
-      return response.text();
-    }).then(body => console.log(body));
-
-      // function(error, response, body) {
-      //   if (error) {
-      //     reject(error);
-      //   }
-      //   var data = JSON.parse(body);
-      //   var results = data;
-      //   // resolve once we have some data
-      //   resolve(results);
-      // }
-    // );
+    }))
+      .then(response => {
+        // clearTimeout(timeout);
+        // if (!didTimeout) {
+          return response.text();
+        // }
+      })
+      .then(body => console.log(body));
   });
 });
 
