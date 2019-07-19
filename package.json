@@ -21,6 +21,7 @@
     "body-parser": "^1.18.3",
     "compression": "^1.7.4",
     "express": "^4.16.4",
+    "node-fetch": "^2.6.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-image-gallery": "^0.8.18",
