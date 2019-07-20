@@ -15,12 +15,23 @@ connection.connect(err => {
 //     connection.query('SELECT * FROM')
 // }
 
-const seedDbListings = function(listingId, mainImage, cb) {
-  connection.query(
-    `INSERT INTO images (id, listing_id, mainImage) VALUES (id, ${listingId}, ${mainImage}) ON DUPLICATE KEY UPDATE `
-  );
-};
+// const seedDbListings = function(listingId, mainImage, cb) {
+//   connection.query(
+//     `INSERT INTO images (id, listing_id, mainImage) VALUES (id, ${listingId}, ${mainImage}) ON DUPLICATE KEY UPDATE `
+//   );
+// };
 
 const getListingImages = function(listingId, cb) {
-  connection.query(`SELECT ${listingId} FROM`);
+  connection.query(`SELECT * FROM images WHERE listing_id=${listingId};`, (error, results) => {
+    if (error) {
+      console.log('Error getting listing images: ', error);
+    } else {
+      console.log('Images retrieved: ', results);
+      cb(results);
+    }
+  });
 };
+
+module.exports = {
+  getListingImages
+}
