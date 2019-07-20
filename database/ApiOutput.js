@@ -1,4 +1,4 @@
-/**/ ({
+module.exports =/**/ ([({
   count: 2,
   results: [
     {
@@ -54,7 +54,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -87,7 +87,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -216,7 +216,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -297,7 +297,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -330,7 +330,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -411,7 +411,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -540,7 +540,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 9,
   results: [
@@ -765,7 +765,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 8,
   results: [
@@ -966,7 +966,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -1047,7 +1047,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 2,
   results: [
@@ -1104,7 +1104,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /////////////////////////////////////////////////////////////
 /**/ ({
   count: 5,
@@ -1234,7 +1234,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 2,
@@ -1292,7 +1292,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 1,
@@ -1326,7 +1326,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 6,
@@ -1480,7 +1480,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 6,
@@ -1634,7 +1634,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 3,
@@ -1716,7 +1716,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 9,
@@ -1942,7 +1942,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -2191,7 +2191,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 8,
@@ -2393,7 +2393,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -2474,7 +2474,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /////////////////////////////////////////////////////////////
 /**/ ({
   count: 2,
@@ -2532,7 +2532,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -2565,7 +2565,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 6,
@@ -2719,7 +2719,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 3,
@@ -2801,7 +2801,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 2,
@@ -2859,7 +2859,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 6,
@@ -3013,7 +3013,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 9,
@@ -3239,7 +3239,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 1,
@@ -3273,7 +3273,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 10,
@@ -3523,7 +3523,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 
 /**/ ({
   count: 7,
@@ -3701,7 +3701,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /////////////////////////////////////////////////////////////
 /**/ ({
   count: 5,
@@ -3831,7 +3831,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -4080,7 +4080,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -4209,7 +4209,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -4338,7 +4338,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 9,
   results: [
@@ -4563,7 +4563,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -4692,7 +4692,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -4821,7 +4821,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 6,
   results: [
@@ -4974,7 +4974,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -5223,7 +5223,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 2,
   results: [
@@ -5280,7 +5280,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -5361,7 +5361,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 4,
   results: [
@@ -5466,7 +5466,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 2,
   results: [
@@ -5523,7 +5523,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -5580,7 +5580,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -5661,7 +5661,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -5694,7 +5694,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -5775,7 +5775,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -5952,7 +5952,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -6201,7 +6201,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -6378,7 +6378,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -6555,7 +6555,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -6804,7 +6804,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -6933,7 +6933,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 9,
   results: [
@@ -7158,7 +7158,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 9,
   results: [
@@ -7383,7 +7383,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -7632,7 +7632,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -7761,7 +7761,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -8010,7 +8010,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -8091,7 +8091,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -8124,7 +8124,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -8301,7 +8301,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -8550,7 +8550,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 8,
   results: [
@@ -8751,7 +8751,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -9000,7 +9000,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 4,
   results: [
@@ -9105,7 +9105,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 9,
   results: [
@@ -9330,7 +9330,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -9507,7 +9507,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 8,
   results: [
@@ -9708,7 +9708,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -9885,7 +9885,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 6,
   results: [
@@ -10038,7 +10038,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -10071,7 +10071,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 2,
   results: [
@@ -10128,7 +10128,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 6,
   results: [
@@ -10281,7 +10281,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -10314,7 +10314,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -10491,7 +10491,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -10668,7 +10668,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -10917,7 +10917,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -11046,7 +11046,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -11223,7 +11223,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -11472,7 +11472,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -11505,7 +11505,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 6,
   results: [
@@ -11658,7 +11658,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 6,
   results: [
@@ -11811,7 +11811,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [[
@@ -11868,7 +11868,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [[
@@ -11883,7 +11883,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 1,
   results: [
@@ -11916,7 +11916,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 6,
   results: [
@@ -12069,7 +12069,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 2,
   results: [
@@ -12126,7 +12126,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -12255,7 +12255,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -12384,7 +12384,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 2,
   results: [
@@ -12441,7 +12441,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -12570,7 +12570,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 5,
   results: [
@@ -12699,7 +12699,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 6,
   results: [
@@ -12852,7 +12852,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 3,
   results: [
@@ -12933,7 +12933,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 7,
   results: [
@@ -13110,7 +13110,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -13359,7 +13359,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 2,
   results: [
@@ -13416,7 +13416,7 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+}),
 /**/ ({
   count: 10,
   results: [
@@ -13665,4 +13665,5 @@
   type: "ListingImage",
   pagination: {},
   ok: true
-});
+})]
+)
