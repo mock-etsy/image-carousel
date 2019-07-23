@@ -21,11 +21,11 @@ class App extends React.Component {
       showBullets: true,
       infinite: true,
       newInput: false,
-      listID: 471994052
+      listID: 471994052,
       // showThumbnails: true,
       // showFullscreenButton: true,
       // showGalleryFullscreenButton: true,
-      // showPlayButton: false,
+      showPlayButton: false,
       // showGalleryPlayButton: false,
       // showNav: true,
       // isRTL: false,
@@ -268,7 +268,7 @@ class App extends React.Component {
         <ImageGallery
           // ref={i => (this._imageGallery = i)}
           items={this.images}
-          // lazyLoad={false}
+          lazyLoad={true}
           // onClick={this._onImageClick.bind(this)}
           // onImageLoad={this._onImageLoad}
           // onSlide={this._onSlide.bind(this)}
@@ -281,9 +281,9 @@ class App extends React.Component {
           //   this.state.showFullscreenButton &&
           //   this.state.showGalleryFullscreenButton
           // }
-          // showPlayButton={
-          //   this.state.showPlayButton && this.state.showGalleryPlayButton
-          // }
+          showPlayButton={
+            this.state.showPlayButton && this.state.showGalleryPlayButton
+          }
           // showThumbnails={this.state.showThumbnails}
           // showIndex={this.state.showIndex}
           // showNav={this.state.showNav}
